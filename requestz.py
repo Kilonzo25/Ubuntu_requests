@@ -1,8 +1,6 @@
 import requests
 import os
 from urllib.parse import urlparse
-def main()
-
 def download_image(url, filename=None):
     # Add headers to mimic a browser request
     headers = {
@@ -38,4 +36,5 @@ def download_image(url, filename=None):
 
 # Get URL from user
 url = input("Please enter the image URL: ")
+
 download_image(url)
